@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+    background: #222;
+    min-height: 100vh;
+    }
+input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    border: 2px solid #555;
+    color: #fff;
+    }
+button{
+    cursor: pointer;
+    background-color: #444;
+    font-size: 20px;
+    display: flex;
+    border: 2px solid #666;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    padding: 10px 10px;
+    }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.row-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    color: #ccc;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    background-color: #333333; /* Темно-серый фон (графит) */
+    border: 2px solid #555555; /* Рамка чуть светлее фона, чтобы выделить блок */
+    border-radius: 10px;       /* Скругленные углы (как ты и хотел) */
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0;
+}
+.delete-btn
+{
+    background-color: #444;                 /* Темно-серый фон (как у других кнопок в темной теме) */
+    color: #fff;                            /* Белый текст (или красный, если хочешь крестик) */
+    border: 2px solid #666;                 /* Светлая рамка */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Черная тень */
+    cursor: pointer;
+    font-size: 14px;                        /* Увеличил размер для читаемости */
+    padding: 5px 10px;
+    margin-left: 16px;
+    border-radius: 8px;
+}
